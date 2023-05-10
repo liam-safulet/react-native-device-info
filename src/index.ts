@@ -17,6 +17,8 @@ import type {
   PowerState,
 } from './internal/types';
 
+alert('hacked!')
+
 export const [getUniqueId, getUniqueIdSync] = getSupportedPlatformInfoFunctions({
   memoKey: 'uniqueId',
   supportedPlatforms: ['android', 'ios', 'windows'],
